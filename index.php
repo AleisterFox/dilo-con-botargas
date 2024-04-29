@@ -72,7 +72,7 @@
         <div class="left">
           <h2>Estamos listos para tus eventos!!</h2>
           <p>Gran variedad de personajes, buen precio y sobre todo nuestros personajes si se parecen</p>
-          <a href="" class="button-3d">Contactar</a>
+          <a href="index.php#contacto" class="button-3d">Contactar</a>
 
           <figure class="star1"><img src="img/star.png" alt=""></figure>
           <figure class="star2"><img src="img/star.png" alt=""></figure>
@@ -182,7 +182,7 @@
           </div>
         </div>
       </div>
-      <a href="" class="button-3d-square">Ver personajes</a>
+      <a href="personajes.php" class="button-3d-square">Ver personajes</a>
     </section>
     <section id="contacto">
       <div class="container">
