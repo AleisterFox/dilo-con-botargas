@@ -64,7 +64,7 @@
 
     <?php include 'elements/header.php' ?>
 
-    <main>
+    <!-- <main>
         <div class="front">
             <figure>
                 <img src="img/lavado.png" alt="">
@@ -104,6 +104,15 @@
             </div>
         </section>
 
+    </main> -->
+
+    <main>
+        <div class="venta-container">
+            <figure>
+                <img src="img/lavado-page.png" alt="">
+            </figure>
+            <a href="index.php#contacto" class="button-3d-square contacto">Contactanos</a>
+        </div>
     </main>
 
     <?php include 'elements/footer.php' ?>

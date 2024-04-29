@@ -64,7 +64,7 @@
 
     <?php include 'elements/header.php' ?>
 
-    <main>
+    <!-- <main>
         <div class="front">
             <figure>
                 <img src="img/lavado.png" alt="">
@@ -132,6 +132,13 @@
             </div>
         </section>
 
+    </main> -->
+
+    <main>
+        <div class="renta-container">
+            <figure><img src="img/renta1.png" alt=""></figure>
+            <a href="personajes.php" class="button-3d-square">Ver personajes</a>
+        </div>
     </main>
 
     <?php include 'elements/footer.php' ?>

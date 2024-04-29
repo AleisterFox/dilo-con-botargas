@@ -892,6 +892,25 @@ footer .bottom .tyc {
     row-gap: 4rem;
 }
 
+.renta-container, .venta-container {
+    padding-top: 15vh;
+    position: relative;
+}
+
+.renta-container .button-3d-square {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.venta-container .button-3d-square {
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 #contenido .container.renta .right {
     flex-basis: 50rem;
     flex-grow: 1;
@@ -1018,18 +1037,34 @@ footer .bottom .tyc {
     object-position: top;
 }
 
-#contenido .container .mapas {
+#contenido .container .mapas, .venta-container .mapas {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: var(--padding);
+    width: calc(var(--width) - 8rem);
+    margin: var(--center);
 }
 
-#contenido .container .mapas .mapa {
+.venta-container .mapas {
+    position: absolute;
+    bottom: 80rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4rem;
+    background-color: white;
+    border-radius: 6rem;
+    border: 1px solid black;
+    border-bottom: 1rem solid rgba(140, 140, 140, 1);
+    border-left: 1rem solid rgba(140, 140, 140, 1);
+}
+
+#contenido .container .mapas .mapa, .venta-container .mapas .mapa {
     flex-basis: 30rem;
     flex-grow: 1;
 }
 
-#contenido .container .mapas .mapa iframe {
+#contenido .container .mapas .mapa iframe, .venta-container .mapas .mapa iframe {
     width: 100%;
     border-radius: 3rem;
     border: 1px solid black;
@@ -1169,7 +1204,7 @@ footer .bottom .tyc {
     header .menu {
         position: absolute;
         top: 100%;
-        background-color: var(--yellow);
+        background-color: var(--cream2);
         width: 100vw;
         left: -2rem;
         display: flex;
@@ -1277,6 +1312,14 @@ footer .bottom .tyc {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .venta-container .button-3d-square, .renta-container .button-3d-square {
+        display: none;
+    }
+
+    footer {
+        margin-top: -2rem;
     }
 
 }
