@@ -1,4 +1,4 @@
-const menu = document.querySelectorAll(".menu");
+const menu = document.querySelectorAll(".menu.header-menu");
 const burguerButton = document.querySelector(".menu__button");
 const searchBar = document.querySelector(".search");
 const bodyMain = document.querySelector("main");
@@ -27,4 +27,10 @@ burguerButton.addEventListener("click", () => {
   }
 });
 
+const rentas = document.querySelectorAll(".boton-renta");
 
+rentas.forEach((renta) => {
+  renta.addEventListener("click", () => {
+    renta.classList.toggle("active");
+  });
+});

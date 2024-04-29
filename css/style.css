@@ -141,8 +141,8 @@ img {
 }
 
 .round__button {
-    width: 6rem;
-    min-height: 6rem;
+    width: 4rem;
+    min-height: 4rem;
     background-color: var(--pink);
     /* border-bottom: 0.6rem solid var(--dark-blue); */
     color: white;
@@ -279,7 +279,7 @@ img {
 }
 
 header {
-    height: 15vh;
+    height: 25vh;
     width: 100%;
     margin: var(--center);
     position: fixed;
@@ -310,7 +310,7 @@ header nav .menu__button, .bars {
 
 header figure, header picture {
     display: block;
-    height: 10rem;
+    height: 16rem;
 }
 
 header figure img, header picture img {
@@ -362,6 +362,28 @@ header .menu {
     width: fit-content;
 }
 
+
+.menu li.boton-renta {
+    position: relative;
+}
+
+header .sidemenu, footer .sidemenu {
+    position: absolute !important;
+    top: 110% !important;
+    width: 30rem;
+    max-width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background-color: white;
+    z-index: 2;
+}
+
+.menu li.boton-renta.active .sidemenu {
+    display: initial;
+}
+
+
 p {
     font-size: 2rem;
     font-weight: 400;
@@ -388,7 +410,7 @@ main {
 
 #hero {
     height: 100vh;
-    /* padding-top: 15vh; */
+    /* padding-top: 25vh; */
     color: white;
     /* width: 100vw; */
     position: relative;
@@ -406,7 +428,7 @@ main {
     flex-grow: 1;
     background-color: var(--blue);
     padding: var(--padding);
-    padding-top: 15vh;
+    padding-top: 25vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -701,6 +723,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 2.5rem;
+    max-width: 100%;
 }
 
 #contacto input, #contacto select {
@@ -715,6 +738,7 @@ main {
     font-weight: 400;
     color: black;
     font-family: 'Poppins';
+    max-width: 90vw;
 }
 
 #contacto textarea {
@@ -727,6 +751,7 @@ main {
     font-weight: 400;
     color: black;
     font-family: 'Poppins';
+    max-width: 90vw;
 }
 
 #contacto ::placeholder {
@@ -818,7 +843,7 @@ footer .bottom .tyc {
 
 .front {
     padding: var(--padding);
-    padding-top: 15vh;
+    padding-top: 25vh;
     height: 70vh;
     position: relative;
     display: flex;
@@ -893,7 +918,7 @@ footer .bottom .tyc {
 }
 
 .renta-container, .venta-container {
-    padding-top: 15vh;
+    padding-top: 25vh;
     position: relative;
 }
 
@@ -924,34 +949,34 @@ footer .bottom .tyc {
     list-style: none;
 }
 
-#contenido .container.renta .left ul li {
+#contenido .container.renta .left ul li, header .sidemenu li, footer .sidemenu li {
     font-size: 1.6rem;
     margin: 2rem 0;
     cursor: pointer;
 }
 
-#contenido .container.renta .left ul li ul {
+#contenido .container.renta .left ul li ul, header .sidemenu li ul, footer .sidemenu li ul {
     list-style: disc;
     padding-left: 2rem;
 }
 
-#contenido .container.renta .left li.active {
+#contenido .container.renta .left li a.active, header .sidemenu li a.active, footer .sidemenu li a.active {
     font-weight: 700;
     color: rgba(3, 152, 158, 1);
 }
 
-#contenido .container.renta .left li {
+#contenido .container.renta .left li, header .sidemenu li, footer .sidemenu li {
     font-weight: 400;
     color: black;
 }
 
-#contenido .container.renta .left .sidemenu {
+#contenido .container.renta .left .sidemenu, header .sidemenu, footer .sidemenu {
     background-color: white;
     padding: 2rem;
     border-radius: 4rem;
     border: 1px solid black;
-    border-bottom: 4px solid black;
-    border-right: 4px solid black;
+    border-bottom: 6px solid black;
+    border-right: 6px solid black;
     position: sticky;
     top: 16vh;
 }
@@ -1082,6 +1107,10 @@ footer .bottom .tyc {
     :root {
         --width: calc(100% - 4rem);
         --padding: 0rem 2rem;
+    }
+
+    header figure, header picture {
+        height: 12rem;
     }
 
     #product .side-gallery {

@@ -1,7 +1,20 @@
 <footer>
   <div class="top">
-    <ul class="menu">
-      <li><a class="button" href="renta.php">Renta</a></li>
+  <ul class="menu">
+      <li class="boton-renta"><a class="button" href="javascript:void(0);">Renta</a>
+        <div class="sidemenu">
+          <ul>
+            <li><a class="active" href="renta.php">Renta de botargas</a>
+              <ul class="submenu">
+                <li><a href="renta.php">Entrega de regalo</a></li>
+              </ul>
+            </li>
+            <li><a href="renta.php">Renta de botargas con operador profesional</a></li>
+            <li><a href="renta.php">Renta de botargas con operador y animador</a></li>
+            <li><a href="renta.php">Solo botarga a domicilio</a></li>
+          </ul>
+        </div>
+      </li>
       <li><a class="button" href="venta.php">Venta</a></li>
       <li><a class="button" href="personajes.php">Personajes</a></li>
       <li><a class="button" href="lavado-mantenimiento.php">Lavado y Mantenimiento</a></li>
