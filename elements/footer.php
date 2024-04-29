@@ -7,9 +7,9 @@
       <li><a class="button" href="lavado-mantenimiento.php">Lavado y Mantenimiento</a></li>
     </ul>
     <ul class="socials">
-      <li><a href="" class="round__button"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="" class="round__button"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="" class="round__button"><i class="fab fa-tiktok"></i></a></li>
+      <li><a href="https://www.facebook.com/rentayventabotargas?mibextid=LQQJ4d" class="round__button" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://www.instagram.com/rentaventa_botargas" class="round__button" target="__blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.tiktok.com/@rentaventa_botargas?_t=8Yb6MfwR737&_r=1" class="round__button" target="__blank"><i class="fab fa-tiktok"></i></a></li>
     </ul>
   </div>
 
