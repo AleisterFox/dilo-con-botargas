@@ -991,6 +991,26 @@ footer .bottom .tyc {
     /* justify-content: space-between; */
 }
 
+.texto {
+    padding: var(--padding);
+}
+
+.venta-container .texto p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(104, 105, 107, 1);
+}
+
+.serviciotexto {
+    color: var(--pink);
+}
+
+.texto h2 {
+    font-size: 6rem;
+    color: rgba(178, 183, 255, 1);
+}
+
 .renta-container {
     background: url('../img/renta.png') no-repeat;
     background-size: 100%;
@@ -1053,12 +1073,53 @@ footer .bottom .tyc {
     border: 2px solid rgba(0, 0, 0, 0.45);
 }
 
+.venta-container .box.small {
+    width: 60rem;
+    min-height: 40rem;
+}
+
+.venta-container .box.small ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+p span.green {
+    color: rgba(190, 255, 178, 1);
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+p span.pink {
+    color: var(--pink);
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
 .venta-container .box p {
     font-family: 'BobbyJones';
     width: 100%;
     color: rgba(104, 105, 107, 1);
     text-align: center;
     margin: 2rem 0;
+}
+
+.venta-container .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: var(--padding);
+    align-items: center;
+}
+
+.button-3d-square.contacto::before {
+    content: "Contáctanos";
+}
+
+.venta-container .content .left, .venta-container .content .right {
+    flex-basis: 25rem;
+    flex-grow: 1;
 }
 
 .venta-container .box ul {

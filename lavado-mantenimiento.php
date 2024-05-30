@@ -21,7 +21,7 @@
     <meta name="msapplication-TileColor" content="rgb(16, 48, 55)" />
     <meta name="theme-color" content="rgb(16, 48, 55)" />
 
-    <?php include 'elements/estilos.php'?>
+    <?php include 'elements/estilos.php' ?>
 
     <script src="js/wow.min.js"></script>
     <script>
@@ -108,7 +108,44 @@
                 <h2 class="genty melon">Lavado</h2>
                 <h3 class="genty jade small"><span class="genty yellow">&</span>Mantenimiento</h3>
             </div>
+
+            <div class="texto">
+                <h2 class="bobby">El arte de Lavar, restaurar y embellecer</h2>
+                <p class="bobby">Dale nueva vida a tu botarga con nuestro servicio de mantenimiento <br> usamos técnicas eficaces para quitar la suciedad</p>
+            </div>
+            <div class="espacio"></div>
+            <div class="title-text">
+                <h3 class="genty small serviciotexto">Contamos con Servicios de:</h3>
+            </div>
+            <div class="box small">
+                <ul>
+                    <li>Lavado</li>
+                    <li>Bordado</li>
+                    <li>Restauración</li>
+                    <li>Remplazamos, pintamos los detalles y piezas para que vuelvan a verse presentables y relucientes</li>
+                </ul>
+            </div>
+            <div class="espacio"></div>
+            <p class="bobby">nuestro  trabajo es una labor de <span class="green bobby">creatividad</span> y <span class="pink bobby">ESMERO</span></p>
+            <div class="espacio"></div>
+            <div class="content">
+                <div class="left">
+                    <p class="bobby">Envianos una foto de tu botarga para revisar su estructura y hacer diagnostico rápido</p>
+                </div>
+                <div class="right">
+                    <div class="box small">
+                        <ul>
+                            <li>Tiempo de entrega 5-10 días hábiles dependiendo de la complejidad</li>
+                            <li>50% Anticipo, 50%al terminar el trabajo</li>
+                            <li>Si necesitas factura es más IVA</li>
+                            <li>Servicio de recolección y entrega (costó adicional)</li>
+                            <li>Sucursal de Mantenimiento NORTE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <a href="index.php#contacto" class="button-3d-square contacto">Contactanos</a>
+
         </div>
     </main>
 
