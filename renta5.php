@@ -132,15 +132,14 @@
 
             <div class="title-text">
                 <p class="bobby">renta de</p>
-                <h3 class="genty yellow">solo la</h3>
                 <h2 class="genty melon">Botarga</h2>
-                <p class="bobby yellow">$1,100</p>
+                <h3 class="genty mint">+Entrega a Domicilio</h3>
             </div>
 
             <ul>
-                <li class="bobby">La Inversión es mucho menor</li>
-                <li class="bobby">Te conviertes en el escritor de tu propio show</li>
-                <li class="bobby">Te llevas la botarga un día antes de tu evento y le regalas un día después, disfrutando mucho más la experiencia</li>
+                <li class="bobby">Fecha y Horario en que se entregara la Botarga</li>
+                <li class="bobby">Personaje que requieres</li>
+                <li class="bobby">Dirección completa de donde se realizara la entrega con puntos de referencia clave</li>
             </ul>
 
 

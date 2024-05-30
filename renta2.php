@@ -35,22 +35,22 @@
     </div>
 
     <!-- <div class="loader__screen" id="loader">
-    <div id="wifi-loader">
-      <svg class="circle-outer" viewBox="0 0 86 86">
-        <circle class="back" cx="43" cy="43" r="40"></circle>
-        <circle class="front" cx="43" cy="43" r="40"></circle>
-        <circle class="new" cx="43" cy="43" r="40"></circle>
-      </svg>
-      <svg class="circle-middle" viewBox="0 0 60 60">
-        <circle class="back" cx="30" cy="30" r="27"></circle>
-        <circle class="front" cx="30" cy="30" r="27"></circle>
-      </svg>
-      <svg class="circle-inner" viewBox="0 0 34 34">
-        <circle class="back" cx="17" cy="17" r="14"></circle>
-        <circle class="front" cx="17" cy="17" r="14"></circle>
-      </svg>
-      <div class="text" data-text="Loading..."></div>
-    </div>
+        <div id="wifi-loader">
+        <svg class="circle-outer" viewBox="0 0 86 86">
+            <circle class="back" cx="43" cy="43" r="40"></circle>
+            <circle class="front" cx="43" cy="43" r="40"></circle>
+            <circle class="new" cx="43" cy="43" r="40"></circle>
+        </svg>
+        <svg class="circle-middle" viewBox="0 0 60 60">
+            <circle class="back" cx="30" cy="30" r="27"></circle>
+            <circle class="front" cx="30" cy="30" r="27"></circle>
+        </svg>
+        <svg class="circle-inner" viewBox="0 0 34 34">
+            <circle class="back" cx="17" cy="17" r="14"></circle>
+            <circle class="front" cx="17" cy="17" r="14"></circle>
+        </svg>
+        <div class="text" data-text="Loading..."></div>
+        </div>
   </div> -->
 
     <?php include 'elements/header.php' ?>
@@ -132,15 +132,20 @@
 
             <div class="title-text">
                 <p class="bobby">renta de</p>
-                <h3 class="genty yellow">solo la</h3>
                 <h2 class="genty melon">Botarga</h2>
-                <p class="bobby yellow">$1,100</p>
+                <h3 class="genty yellow">C/operador</h3>
+                <p class="bobby yellow">desde $2,650</p>
             </div>
 
             <ul>
-                <li class="bobby">La Inversión es mucho menor</li>
-                <li class="bobby">Te conviertes en el escritor de tu propio show</li>
-                <li class="bobby">Te llevas la botarga un día antes de tu evento y le regalas un día después, disfrutando mucho más la experiencia</li>
+                <p class="bobby">Duración 1:30 dividida en 2 bloques</p>
+                <p class="bobby">nosotros te incluimos</p>
+                <li class="bobby">batucada</li>
+                <li class="bobby">30 globos largos</li>
+                <li class="bobby">30 artículos para batucada</li>
+                <li class="bobby">bazuca de confeti metálico</li>
+                <li class="bobby">extintor de shots</li>
+                <li class="bobby">maquina de toques</li>
             </ul>
 
 

@@ -132,15 +132,16 @@
 
             <div class="title-text">
                 <p class="bobby">renta de</p>
-                <h3 class="genty yellow">solo la</h3>
                 <h2 class="genty melon">Botarga</h2>
-                <p class="bobby yellow">$1,100</p>
+                <h3 class="genty mint">+Entrega de <br> Regalo</h3>
+                <p class="bobby yellow">desde $1,450</p>
             </div>
 
             <ul>
-                <li class="bobby">La Inversión es mucho menor</li>
-                <li class="bobby">Te conviertes en el escritor de tu propio show</li>
-                <li class="bobby">Te llevas la botarga un día antes de tu evento y le regalas un día después, disfrutando mucho más la experiencia</li>
+                <li class="bobby">duración 1 hora</li>
+                <li class="bobby">operador profesional de botarga</li>
+                <li class="bobby">bocina de audio</li>
+                <li class="bobby">bazuca de confeti</li>
             </ul>
 
 

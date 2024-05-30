@@ -13,12 +13,12 @@
           <ul>
             <li><a class="active" href="renta.php">Renta de botargas</a>
               <ul class="submenu">
-                <li><a href="renta.php">Entrega de regalo</a></li>
+                <li><a href="renta4.php">Entrega de regalo</a></li>
               </ul>
             </li>
-            <li><a href="renta.php">Renta de botargas con operador profesional</a></li>
-            <li><a href="renta.php">Renta de botargas con operador y animador</a></li>
-            <li><a href="renta.php">Solo botarga a domicilio</a></li>
+            <li><a href="renta2.php">Renta de botargas con operador profesional</a></li>
+            <li><a href="renta3.php">Renta de botargas con operador y animador</a></li>
+            <li><a href="renta5.php">Solo botarga a domicilio</a></li>
           </ul>
         </div>
       </li>

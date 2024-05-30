@@ -46,6 +46,36 @@ html {
 }
 
 
+@font-face {
+    font-family: 'Genty';
+    src: url('../fonts/GentyDemo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BobbyJones';
+    src: url('../fonts/Bobby\ Jones\ Soft.otf');
+}
+
+.genty {
+    font-family: 'Genty';
+}
+
+.bobby {
+    font-family: 'BobbyJones';
+}
+
+.yellow {
+    color: rgba(223, 183, 110, 1);
+}
+
+.melon {
+    color: rgba(248, 162, 147, 1);
+}
+
+.mint {
+    color: rgba(123, 199, 197, 1);
+}
+
 body {
     /* overflow-x: hidden; */
 }
@@ -367,7 +397,7 @@ header .menu {
     position: relative;
 }
 
-header .sidemenu, footer .sidemenu {
+header .sidemenu {
     position: absolute !important;
     top: 110% !important;
     width: 30rem;
@@ -377,6 +407,19 @@ header .sidemenu, footer .sidemenu {
     display: none;
     background-color: white;
     z-index: 2;
+}
+
+footer .sidemenu {
+    position: absolute !important;
+    top: initial !important;
+    width: 30rem;
+    max-width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background-color: white;
+    z-index: 2;
+    bottom: 110% ;
 }
 
 .menu li.boton-renta.active .sidemenu {
@@ -462,7 +505,7 @@ main {
 }
 
 #hero .container .left h2 {
-    font-size: 6.5rem;
+    font-size: 6.3rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -810,6 +853,7 @@ footer .menu {
 
 footer .socials li {
     z-index: 1;
+    height: 4rem;
 }
 
 /* footer .socials li::after {
@@ -882,7 +926,7 @@ footer .bottom .tyc {
 
 #contenido {
     padding: var(--padding);
-    padding-top: 15rem;
+    padding-top: 25vh;
     padding-bottom: 15rem;
     background: url('../img/confeti.png'), linear-gradient(var(--cream), var(--cream));
     background-repeat: repeat-y;
@@ -922,11 +966,91 @@ footer .bottom .tyc {
     position: relative;
 }
 
+.espacio {
+    height: 15vh;
+}
+
+.renta-container {
+    background: url('../img/renta.png') no-repeat;
+    background-size: 100%;
+    background-position: top;
+    padding: var(--padding);
+    padding-top: 30vh;
+    padding-bottom: 65rem;
+    height: 260rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.renta-container .title-text {
+    width: 100rem;
+    max-width: 100%;
+    margin: var(--center);
+    transform: rotate(-10deg);
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+
+.renta-container p {
+    font-size: 8rem;
+}
+
+.renta-container ul p {
+    color: rgba(104, 105, 107, 1);
+    font-size: 5rem;
+}
+
+.renta-container .title-text p:first-child {
+    font-weight: 300;
+    color: rgba(104, 105, 107, 1);
+    margin: var(--center);
+}
+
+.renta-container .title-text p:last-child {
+    margin-left: auto;
+    width: fit-content;
+}
+
+.renta-container .title-text h3 {
+    font-size: 18rem;
+    line-height: 12rem;
+    margin: 2rem 0;
+    margin-left: 5rem;
+}
+
+.renta-container .title-text h3.small {
+    font-size: 12rem;
+}
+
+.renta-container .title-text h2 {
+    font-size: 22rem;
+    line-height: 16rem;
+    margin: 2rem 0;
+}
+
+
+.renta-container ul {
+    list-style: inside;
+    padding: var(--padding);
+    width: var(--width);
+    margin: var(--center);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.renta-container li {
+    text-align: center;
+    font-size: 5rem;
+    color: rgba(93, 95, 94, 1);
+}
+
 .renta-container .button-3d-square {
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: var(--center);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .venta-container .button-3d-square {
@@ -1010,14 +1134,14 @@ footer .bottom .tyc {
 
 #contenido .top {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 3rem;
     width: 100%;
 }
 
 #contenido .bottom {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 3rem;
     width: 100%;
 }
@@ -1304,7 +1428,7 @@ footer .bottom .tyc {
     }
 
     #hero .container .left {
-       padding-bottom: 5rem;
+        padding-bottom: 5rem;
     }
 
     footer .bottom {

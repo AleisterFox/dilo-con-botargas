@@ -132,15 +132,24 @@
 
             <div class="title-text">
                 <p class="bobby">renta de</p>
-                <h3 class="genty yellow">solo la</h3>
                 <h2 class="genty melon">Botarga</h2>
-                <p class="bobby yellow">$1,100</p>
+                <h3 class="genty mint">+Animador</h3>
+                <h3 class="genty yellow small">+operador</h3>
+                <p class="bobby yellow">desde $4,650</p>
             </div>
 
             <ul>
-                <li class="bobby">La Inversión es mucho menor</li>
-                <li class="bobby">Te conviertes en el escritor de tu propio show</li>
-                <li class="bobby">Te llevas la botarga un día antes de tu evento y le regalas un día después, disfrutando mucho más la experiencia</li>
+                <li class="bobby">duración 1:30</li>
+                <li class="bobby">1 botarga premium con operador</li>
+                <li class="bobby">1 animador</li>
+                <li class="bobby">audio</li>
+                <li class="bobby">bailes y canciones del personaje</li>
+                <li class="bobby">concurso para chicos y grandes</li>
+                <li class="bobby">premios</li>
+                <li class="bobby">partida simbolica de pastel</li>
+                <li class="bobby">batucada</li>
+                <li class="bobby">artículos para batucada</li>
+                <li class="bobby">bazuca de confeti metálico</li>
             </ul>
 
 

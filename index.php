@@ -31,9 +31,9 @@
 </head>
 
 <body>
-  <!-- <div class="whatsapp">
+  <div class="whatsapp">
     <a href="https://wa.link/d53e1z" target="_blank"><i class="fab fa-whatsapp"></i></a>
-  </div> -->
+  </div>
 
   <!-- <div class="loader__screen" id="loader">
     <div id="wifi-loader">
