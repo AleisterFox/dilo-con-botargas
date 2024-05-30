@@ -76,6 +76,14 @@ html {
     color: rgba(123, 199, 197, 1);
 }
 
+.jade {
+    color: rgba(3, 152, 158, 1);
+}
+
+.creme {
+    color: rgba(247, 219, 201, 1);
+}
+
 body {
     /* overflow-x: hidden; */
 }
@@ -926,7 +934,7 @@ footer .bottom .tyc {
 
 #contenido {
     padding: var(--padding);
-    padding-top: 25vh;
+    padding-top: 30vh;
     padding-bottom: 15rem;
     background: url('../img/confeti.png'), linear-gradient(var(--cream), var(--cream));
     background-repeat: repeat-y;
@@ -970,6 +978,19 @@ footer .bottom .tyc {
     height: 15vh;
 }
 
+.venta-container {
+    background: url('../img/venta.png') repeat-y;
+    background-size: 100%;
+    background-position: top;
+    padding: var(--padding);
+    padding-top: 30vh;
+    padding-bottom: 10rem;
+    /* min-height: 260rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
 .renta-container {
     background: url('../img/renta.png') no-repeat;
     background-size: 100%;
@@ -996,34 +1017,90 @@ footer .bottom .tyc {
     font-size: 8rem;
 }
 
+.venta-container .title-text {
+    width: 100rem;
+    max-width: 100%;
+    margin: var(--center);
+    transform: rotate(-10deg);
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+}
+
+.venta-container p {
+    font-size: 3rem;
+    padding: var(--padding);
+    width: var(--width);
+    margin: var(--center);
+}
+
+.venta-container p.big {
+    font-size: 7rem;
+    text-align: center;
+}
+
+.venta-container .title-text p {
+    font-size: 8rem;
+}
+
+.venta-container .box {
+    border-radius: 6rem;
+    width: 95rem;
+    margin: var(--center);
+    padding: 2.5rem 5rem;
+    background-color: white;
+    box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.45);
+    margin-top: 4rem;
+    border: 2px solid rgba(0, 0, 0, 0.45);
+}
+
+.venta-container .box p {
+    font-family: 'BobbyJones';
+    width: 100%;
+    color: rgba(104, 105, 107, 1);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.venta-container .box ul {
+    list-style: inside;
+}
+
+.venta-container li {
+    color: rgba(104, 105, 107, 1);
+    font-size: 3rem;
+    font-family: 'BobbyJones';
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
 .renta-container ul p {
     color: rgba(104, 105, 107, 1);
     font-size: 5rem;
 }
 
-.renta-container .title-text p:first-child {
+.title-text p:first-child {
     font-weight: 300;
     color: rgba(104, 105, 107, 1);
     margin: var(--center);
 }
 
-.renta-container .title-text p:last-child {
+.title-text p:last-child {
     margin-left: auto;
     width: fit-content;
 }
 
-.renta-container .title-text h3 {
+.title-text h3 {
     font-size: 18rem;
     line-height: 12rem;
     margin: 2rem 0;
     margin-left: 5rem;
 }
 
-.renta-container .title-text h3.small {
+.title-text h3.small {
     font-size: 12rem;
 }
 
-.renta-container .title-text h2 {
+.title-text h2 {
     font-size: 22rem;
     line-height: 16rem;
     margin: 2rem 0;
@@ -1047,6 +1124,31 @@ footer .bottom .tyc {
     color: rgba(93, 95, 94, 1);
 }
 
+.sucursales h2 {
+    font-size: 15rem;
+}
+
+.sucursales h3 {
+    font-size: 12rem;
+}
+
+.sucursales .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.sucursales .box .map {
+    flex-basis: 30rem;
+    flex-grow: 1;
+}
+
+.sucursales .box .map iframe {
+    width: 100%;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
 .renta-container .button-3d-square {
     margin: var(--center);
     margin-top: 5rem;
@@ -1054,10 +1156,9 @@ footer .bottom .tyc {
 }
 
 .venta-container .button-3d-square {
-    position: absolute;
-    bottom: 10rem;
-    left: 50%;
-    transform: translateX(-50%);
+    width: fit-content;
+    margin: var(--center);
+    margin-top: 10rem;
 }
 
 #contenido .container.renta .right {
@@ -1217,6 +1318,18 @@ footer .bottom .tyc {
     width: 100%;
     border-radius: 3rem;
     border: 1px solid black;
+}
+
+.comfort h3 {
+    font-size: 8rem;
+}
+
+.comfort h2 {
+    font-size: 14rem;
+}
+
+.comfort .box {
+    width: 100%;
 }
 
 @media screen and (max-width: 1380px) {

@@ -100,9 +100,14 @@
 
     <main>
         <div class="venta-container">
-            <figure>
+            <!-- <figure>
                 <img src="img/lavado-page.png" alt="">
-            </figure>
+            </figure> -->
+
+            <div class="title-text">
+                <h2 class="genty melon">Lavado</h2>
+                <h3 class="genty jade small"><span class="genty yellow">&</span>Mantenimiento</h3>
+            </div>
             <a href="index.php#contacto" class="button-3d-square contacto">Contactanos</a>
         </div>
     </main>

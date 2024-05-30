@@ -21,7 +21,7 @@
     <meta name="msapplication-TileColor" content="rgb(16, 48, 55)" />
     <meta name="theme-color" content="rgb(16, 48, 55)" />
 
-    <?php include 'elements/estilos.php'?>
+    <?php include 'elements/estilos.php' ?>
 
     <script src="js/wow.min.js"></script>
     <script>
@@ -119,10 +119,65 @@
 
     <main>
         <div class="venta-container">
-            <figure>
+            <!-- <figure>
                 <img src="img/venta.png" alt="">
-            </figure>
+            </figure> -->
 
+            <div class="title-text">
+                <p class="bobby">venta de</p>
+                <h2 class="genty melon">Botarga</h2>
+            </div>
+
+            <p class="bobby">si estas buscando una botarga para amenizar tus fiestas o potenciar tu negocio</p>
+            <p class="bobby big jade">NO lo Pienses Mas!!!</p>
+            <div class="box">
+                <p>¡Vente a la segura con nosotros! </p>
+                <p>Elige la excelencia y calidad que tenemos como fabricantes, con la más alta innovación en la elaboración de nuestras botargas premium, respaldados por el mejor equipo y personal capacitado para brindarte una atención personalizada. </p>
+            </div>
+            <div class="espacio"></div>
+            <div class="espacio"></div>
+            <p class="bobby big melon">ofrecemos:</p>
+            <div class="box">
+                <ul>
+                    <li>Diseño de cualquier personaje y diseños personalizados, danos tu idea y nosotros la transformamos en botarga. </li>
+                    <li>Tiempo de manufactura de 15 días hábiles </li>
+                    <li>Envíos nacionales e internacionales </li>
+                    <li>Difiere tus compras a meses</li>
+                    <li>Calidad y buen trato con cada uno de nuestros clientes</li>
+                    <li>Se requiere un anticipo del 50 % y el restante se liquida con la aprobación de las fotos enviadas de su personaje terminado.</li>
+                </ul>
+            </div>
+            <div class="espacio"></div>
+            <div class="espacio"></div>
+            <div class="sucursales">
+                <div class="title-text">
+                    <h2 class="genty jade">Contamos con</h2>
+                    <h3 class="genty yellow">Dos sucursales</h3>
+                </div>
+                <div class="box">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.9118116892196!2d-117.66186022430026!3d33.65944687330738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce9ec4381a4d5%3A0x69285c7c898ba440!2s26985%20Brighton%20Ln%2C%20Lake%20Forest%2C%20CA%2092630%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1717106171396!5m2!1ses-419!2smx" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>Sucursal Norte, cerca del metro La Raza</p>
+                    </div>
+
+
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.9118116892196!2d-117.66186022430026!3d33.65944687330738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce9ec4381a4d5%3A0x69285c7c898ba440!2s26985%20Brighton%20Ln%2C%20Lake%20Forest%2C%20CA%2092630%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1717106171396!5m2!1ses-419!2smx" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>Sucursal Oriente, cerca del metro Constitución de 1917</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comfort">
+                <div class="title-text">
+                    <h3 class="genty melon">360°</h3>
+                    <h2 class="genty creme">Sistema Comfort</h2>
+                </div>
+                <div class="box">
+                    <figure>
+                        <img src="img/comfort.png" alt="">
+                    </figure>
+                </div>
+            </div>
             <a href="personajes.php" class="button-3d-square">Ver personajes</a>
         </div>
     </main>
